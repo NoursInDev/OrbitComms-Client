@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.2.3" />
+      <PackageReference Include="Avalonia.Desktop" Version="11.2.3" />
+      <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.3" />
+      <PackageReference Include="Avalonia.Xaml.Behaviors" Version="11.2.0.8" />
+      <PackageReference Include="Avalonia.Xaml.Interactions" Version="11.2.0.8" />
+      <PackageReference Include="Avalonia.Xaml.Interactivity" Version="11.2.0.8" />
+    </ItemGroup>
+
+</Project>

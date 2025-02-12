@@ -1,0 +1,53 @@
+# Build results
+/bin/
+/obj/
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Avalonia specific
+/Assets/obj/
+/Assets/bin/
+
+# Avalonia Designer
+.avalonia/
+
+# Avalonia XAML Previewer
+.avalonia-designer/
+
+# Avalonia build artifacts
+*.pdb
+*.dll
+*.exe
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Tesseract OCR
+/tessdata/
+
+# Struct assets
+/struct-assets/*.drawio
