@@ -28,10 +28,6 @@
 *.dll
 *.exe
 
-# Rider specific
-.idea/
-*.sln.iml
-
 # Logs
 *.log
 

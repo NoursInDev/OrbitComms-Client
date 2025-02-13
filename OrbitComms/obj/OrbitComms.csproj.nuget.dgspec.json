@@ -17,14 +17,14 @@
           "C:\\Users\\tbran\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0-windows"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0-windows7.0": {
-            "targetAlias": "net9.0-windows",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -41,32 +41,28 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0-windows7.0": {
-          "targetAlias": "net9.0-windows",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.2.3, )"
+              "version": "[11.2.1, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[11.2.3, )"
+              "version": "[11.2.1, )"
             },
-            "Avalonia.ReactiveUI": {
+            "Avalonia.Diagnostics": {
               "target": "Package",
-              "version": "[11.2.3, )"
+              "version": "[11.2.1, )"
             },
-            "Avalonia.Xaml.Behaviors": {
+            "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[11.2.0.8, )"
+              "version": "[11.2.1, )"
             },
-            "Avalonia.Xaml.Interactions": {
+            "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[11.2.0.8, )"
-            },
-            "Avalonia.Xaml.Interactivity": {
-              "target": "Package",
-              "version": "[11.2.0.8, )"
+              "version": "[11.2.1, )"
             }
           },
           "imports": [
@@ -83,9 +79,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
