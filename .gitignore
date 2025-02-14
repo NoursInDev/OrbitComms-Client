@@ -1,10 +1,20 @@
 # Build results
-/bin/
-/obj/
+/build/
+/out/
 
-# Rider project files
-.idea/
-*.sln.iml
+# Gradle
+/.gradle/
+/gradle/
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
 
 # User-specific files
 *.rsuser
@@ -13,20 +23,9 @@
 *.userosscache
 *.sln.docstates
 
-# Avalonia specific
-/Assets/obj/
-/Assets/bin/
-
-# Avalonia Designer
-.avalonia/
-
-# Avalonia XAML Previewer
-.avalonia-designer/
-
-# Avalonia build artifacts
-*.pdb
-*.dll
-*.exe
+# Kotlin specific
+*.kotlin_module
+*.kotlin_metadata
 
 # Logs
 *.log
@@ -38,12 +37,6 @@
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Node.js dependencies
-node_modules/
-
-# Tesseract OCR
-/tessdata/
 
 # Struct assets
 /struct-assets/*.drawio
