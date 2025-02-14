@@ -1,6 +1,7 @@
 # Build results
 /build/
 /out/
+.run/
 
 # Gradle
 /.gradle/
