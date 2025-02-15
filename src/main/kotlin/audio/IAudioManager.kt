@@ -1,0 +1,4 @@
+package audio
+
+interface IAudioManager {
+}
