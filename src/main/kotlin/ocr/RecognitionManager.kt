@@ -1,11 +1,9 @@
 package ocr
 
-import net.sourceforge.tess4j.Tesseract
 import java.awt.Rectangle
 import java.awt.Robot
 import java.awt.Window
 import java.awt.image.BufferedImage
-import java.util.*
 
 class RecognitionManager : IRecognitionManager {
 
