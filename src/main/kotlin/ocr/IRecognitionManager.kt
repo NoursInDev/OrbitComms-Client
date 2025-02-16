@@ -7,5 +7,8 @@ interface IRecognitionManager {
     fun getCoordinates() : Array<Double>?
     fun getFacing() : Array<Double>?
 
+    fun getScope() : Array<Int>
+    fun setScope(scope : Array<Int>)
+
     fun setWindow(window: Window?)
 }
