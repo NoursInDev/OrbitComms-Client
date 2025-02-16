@@ -7,6 +7,7 @@ import java.awt.Robot
 import java.awt.Toolkit
 import java.awt.Window
 import java.awt.image.BufferedImage
+import java.awt.image.RescaleOp
 
 class RecognitionManager() : IRecognitionManager {
 
@@ -15,8 +16,6 @@ class RecognitionManager() : IRecognitionManager {
         var Coords: Array<Double>,
         var Shard: String,
     )
-
-
 
     private var window: Window? = null
     private var content: String? = null
@@ -77,10 +76,11 @@ class RecognitionManager() : IRecognitionManager {
     }
 
     private fun captureScreen(screenScope: Array<Int> = this.screenScope) {
-        // todo - change default screen capture
         val robot = Robot()
         val screenRect = Rectangle(screenScope[0], screenScope[1], screenScope[2], screenScope[3])
-        val ocrResult = tesseract.doOCR(robot.createScreenCapture(screenRect))
+        val capturedImage = robot.createScreenCapture(screenRect)
+
+        val ocrResult = tesseract.doOCR(capturedImage)
         if (assertOCRValidResult(ocrResult)) content = ocrResult
     }
 
