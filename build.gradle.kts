@@ -29,6 +29,9 @@ dependencies {
     implementation("org.slf4j:slf4j-simple:2.0.7")
     implementation("com.github.jai-imageio:jai-imageio-core:1.4.0")
     implementation("commons-io:commons-io:2.18.0")
+    implementation("org.java-websocket:Java-WebSocket:1.5.3")
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.0")
 }
 
 compose.desktop {
